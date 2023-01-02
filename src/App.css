@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.Main-square{
+  display: flex;
+  width: 600px;
+  height: 500px;
+}
+
+.SquareChild{
+  flex: 1;
+}
+
+.SecondHalf{
+  background-color: white;
+  border-radius: 0px 15px 15px 0px;
+}
+
+.Main-image{
+  width: 300px;
+  height: 500px;
+  border-radius: 15px 0px 0px 15px;
+}
+
+.Paragraph{
+  font-size: 18px;
+  color: hsl(228, 12%, 48%);
+  font-weight: 700;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.Paragraph.Header{
+  padding-top: 10px;
+}
+
+.Title{
+  color: hsl(212, 21%, 14%);
+  font-size: 44px;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.Price{
+  color: hsl(158, 36%, 37%);
+  font-size: 40px;
+  text-align: left;
+  padding-left: 15px;
+  position: relative;
+  bottom: 20px;
+}
+
+.Paragraph.Discount{
+  text-decoration:line-through;
+  font-weight: 300;
+  float: right;
+  position: relative;
+  bottom: 100px;
+  right: 50px;
+}
+
+.Button{
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 10px;
+  padding: 20px 80px;
+  position: relative;
+  bottom: 80px;
+  margin: 0 auto;
+  font-weight: 700;
+  color: hsl(30, 38%, 92%);
+  font-size: 14px;
+}
+
+.Button:hover{
+  background-color: hsl(212, 21%, 14%);
+}
+
+
+/*GENERATED CODE WITH CREATE REACT APP*/
+/*Only changed the background color*/
+
+.App-header {
+  background-color: hsl(30, 38%, 92%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
